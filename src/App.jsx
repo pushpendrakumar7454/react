@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import Card from './components/cart'
 
 const App = () => {
@@ -72,6 +73,17 @@ const App = () => {
      {users.map((elem)=>{
       return <Card img={elem.img} days={elem.days} name={elem.name} level={elem.level} part={elem.part} remote={elem.remote} rupeye={elem.rupeye} location={elem.location} />
      })}
+=======
+import Cart from './componantes/Card'
+
+const App = () => {
+  return (
+    <div className='p-4 flex flex-wrap gap-4'>
+      <Cart username="Rahul Gupta" img="https://images.unsplash.com/photo-1601933552254-7167f80a6004?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" Text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias illo quidem doloremque eius natus eligendi."/>
+      <Cart username="Ajay Mishra" img="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" Text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias illo quidem doloremque eius natus eligendi."/>
+      <Cart username="Vijay rajpoot" img="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" Text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias illo quidem doloremque eius natus eligendi."/>
+       <Cart username="Sunil rajpoot" img="https://plus.unsplash.com/premium_photo-1661632826973-64b80d95cf6e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" Text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias illo quidem doloremque eius natus eligendi."/>
+>>>>>>> b1d8395a951fff7d2be7df1b29e22444c9825101
     </div>
   )
 }

@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 @import "tailwindcss";
+=======
+@import "tailwindcss";
+*{
+  box-sizing: border-box;
+}
+>>>>>>> b1d8395a951fff7d2be7df1b29e22444c9825101
